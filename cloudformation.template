@@ -1,0 +1,710 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "3a500250-8403-4d8b-8759-68ebb8d62d26": {
+        "size": {
+          "width": 360,
+          "height": 370
+        },
+        "position": {
+          "x": 440,
+          "y": 110
+        },
+        "z": 0,
+        "embeds": [
+          "6b8902b4-58ea-4c7a-9bd8-8529682affd6",
+          "8938b0dd-3c45-41a8-a3d3-a02c237b185f",
+          "c02c43ce-ea89-4aa1-b4f9-73e944fbc3ed",
+          "fab48816-7a30-4217-ad22-e873b38c5516",
+          "70236a59-9efb-4582-a9e6-0cdf764a74b0"
+        ]
+      },
+      "6b8902b4-58ea-4c7a-9bd8-8529682affd6": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 490,
+          "y": 200
+        },
+        "z": 1,
+        "parent": "3a500250-8403-4d8b-8759-68ebb8d62d26",
+        "embeds": []
+      },
+      "c02c43ce-ea89-4aa1-b4f9-73e944fbc3ed": {
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "position": {
+          "x": 630,
+          "y": 190
+        },
+        "z": 1,
+        "parent": "3a500250-8403-4d8b-8759-68ebb8d62d26",
+        "embeds": [
+          "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        ]
+      },
+      "70236a59-9efb-4582-a9e6-0cdf764a74b0": {
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "position": {
+          "x": 630,
+          "y": 290
+        },
+        "z": 1,
+        "parent": "3a500250-8403-4d8b-8759-68ebb8d62d26",
+        "embeds": [
+          "242c4b10-912a-4a9e-a2a7-fc378609d962"
+        ]
+      },
+      "fab48816-7a30-4217-ad22-e873b38c5516": {
+        "size": {
+          "width": 80,
+          "height": 80
+        },
+        "position": {
+          "x": 630,
+          "y": 390
+        },
+        "z": 1,
+        "parent": "3a500250-8403-4d8b-8759-68ebb8d62d26",
+        "embeds": []
+      },
+      "8938b0dd-3c45-41a8-a3d3-a02c237b185f": {
+        "size": {
+          "width": 130,
+          "height": 130
+        },
+        "position": {
+          "x": 450,
+          "y": 340
+        },
+        "z": 1,
+        "parent": "3a500250-8403-4d8b-8759-68ebb8d62d26",
+        "embeds": [
+          "75f42f12-735b-4b66-9da9-395dd75db409"
+        ]
+      },
+      "75f42f12-735b-4b66-9da9-395dd75db409": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 480,
+          "y": 380
+        },
+        "z": 2,
+        "parent": "8938b0dd-3c45-41a8-a3d3-a02c237b185f",
+        "embeds": [],
+        "references": [
+          "8486fe4d-4a45-4df3-ac05-d3d3b2402e07"
+        ],
+        "dependson": [
+          "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        ]
+      },
+      "8486fe4d-4a45-4df3-ac05-d3d3b2402e07": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": 380
+        },
+        "z": 0,
+        "embeds": []
+      },
+      "303168e8-70c7-4326-a1b9-456eaa9d1efc": {
+        "source": {
+          "id": "8938b0dd-3c45-41a8-a3d3-a02c237b185f"
+        },
+        "target": {
+          "id": "c02c43ce-ea89-4aa1-b4f9-73e944fbc3ed"
+        },
+        "z": 1
+      },
+      "be86684a-1842-42b9-a40b-0f9b888cc4df": {
+        "source": {
+          "id": "8938b0dd-3c45-41a8-a3d3-a02c237b185f"
+        },
+        "target": {
+          "id": "70236a59-9efb-4582-a9e6-0cdf764a74b0"
+        },
+        "z": 1
+      },
+      "e57d4a6a-4954-44fa-9120-d7f8d84ddbad": {
+        "source": {
+          "id": "8938b0dd-3c45-41a8-a3d3-a02c237b185f"
+        },
+        "target": {
+          "id": "fab48816-7a30-4217-ad22-e873b38c5516"
+        },
+        "z": 1
+      },
+      "2d0760d9-a360-4028-ac46-7e68dcf108e3": {
+        "source": {
+          "id": "75f42f12-735b-4b66-9da9-395dd75db409"
+        },
+        "target": {
+          "id": "8486fe4d-4a45-4df3-ac05-d3d3b2402e07"
+        },
+        "z": 7
+      },
+      "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": 160
+        },
+        "z": 0,
+        "parent": "c02c43ce-ea89-4aa1-b4f9-73e944fbc3ed",
+        "embeds": [],
+        "isconnectedto": [
+          "2b8ffb50-79d1-4ebd-b7d4-4f68f9cc1c58"
+        ],
+        "dependson": [
+          "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        ],
+        "isrelatedto": [
+          "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        ]
+      },
+      "0ed1fe57-d16b-490b-b6f5-7a7e76c07e4c": {
+        "source": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        },
+        "target": {
+          "id": "3a500250-8403-4d8b-8759-68ebb8d62d26"
+        },
+        "z": 3
+      },
+      "7b309ed1-0768-4e6d-b069-744ee3eeff56": {
+        "source": {
+          "id": "998bdf9b-632e-4644-88da-4792f36e036c"
+        },
+        "target": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        },
+        "z": 4
+      },
+      "e6dda207-1895-46b3-a0d7-f75c334ccfc3": {
+        "source": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        },
+        "target": {
+          "id": "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        },
+        "z": 5
+      },
+      "70345e16-aee7-42fa-83ec-7c51159ef60b": {
+        "source": {
+          "id": "3134ba5c-bf35-404d-9235-65234b5194dd"
+        },
+        "target": {
+          "id": "029749f8-0782-4ef8-ac18-f5c7fdaacae3"
+        },
+        "z": 11
+      },
+      "dbbffdb9-ac72-4e6d-8eb9-985ccfc5c27b": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": 300
+        },
+        "z": 0,
+        "embeds": [],
+        "isconnectedto": [
+          "8aa9415e-0ec4-419e-8f06-0be7d45cd42f"
+        ],
+        "dependson": [
+          "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        ],
+        "isrelatedto": [
+          "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        ]
+      },
+      "4c6f480c-4322-4b51-92e8-db730b7ff9d6": {
+        "source": {
+          "id": "9adeea34-8478-4b21-b4d4-8362b12509ba"
+        },
+        "target": {
+          "id": "dbbffdb9-ac72-4e6d-8eb9-985ccfc5c27b"
+        },
+        "z": 11
+      },
+      "6de90ba8-6433-4217-adad-b0aeaa2ce988": {
+        "source": {
+          "id": "8486fe4d-4a45-4df3-ac05-d3d3b2402e07"
+        },
+        "target": {
+          "id": "3a500250-8403-4d8b-8759-68ebb8d62d26"
+        },
+        "z": 0
+      },
+      "202edc8c-f360-480a-8377-637f921982e5": {
+        "source": {
+          "id": "75f42f12-735b-4b66-9da9-395dd75db409"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 13
+      },
+      "9b623c73-271c-47f2-bd72-5a7862ae0448": {
+        "source": {
+          "id": "18d9f480-7ae2-4618-88ae-afdfd160cbed"
+        },
+        "target": {
+          "id": "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        },
+        "z": 4
+      },
+      "242c4b10-912a-4a9e-a2a7-fc378609d962": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": 230
+        },
+        "z": 0,
+        "parent": "70236a59-9efb-4582-a9e6-0cdf764a74b0",
+        "embeds": [],
+        "isconnectedto": [
+          "18d9f480-7ae2-4618-88ae-afdfd160cbed"
+        ],
+        "dependson": [
+          "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        ],
+        "isrelatedto": [
+          "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        ]
+      },
+      "96594889-7b67-4449-bdd1-feba32de8e18": {
+        "source": {
+          "id": "242c4b10-912a-4a9e-a2a7-fc378609d962"
+        },
+        "target": {
+          "id": "18d9f480-7ae2-4618-88ae-afdfd160cbed"
+        },
+        "z": 3
+      },
+      "dea80cd5-b6c8-42bf-8305-b6ce6734d339": {
+        "source": {
+          "id": "dbbffdb9-ac72-4e6d-8eb9-985ccfc5c27b"
+        },
+        "target": {
+          "id": "8aa9415e-0ec4-419e-8f06-0be7d45cd42f"
+        },
+        "z": 11
+      },
+      "fd9f17ea-2112-4eff-a65a-71369f74089d": {
+        "source": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        },
+        "target": {
+          "id": "2b8ffb50-79d1-4ebd-b7d4-4f68f9cc1c58"
+        },
+        "z": 11
+      },
+      "f4d5e5db-f0b6-4cd0-ad4e-b8bbb21e28de": {
+        "source": {
+          "id": "8aa9415e-0ec4-419e-8f06-0be7d45cd42f"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 12
+      },
+      "7c86e484-c17f-42ec-ab79-cdf1024b8f20": {
+        "source": {
+          "id": "2b8ffb50-79d1-4ebd-b7d4-4f68f9cc1c58"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 13
+      },
+      "e2596ad8-69ff-45ab-8a10-c1841d4cdde6": {
+        "source": {
+          "id": "18d9f480-7ae2-4618-88ae-afdfd160cbed"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 14
+      },
+      "e7da753c-c547-4345-94f7-fc1d7675dda9": {
+        "source": {
+          "id": "dbbffdb9-ac72-4e6d-8eb9-985ccfc5c27b"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 3
+      },
+      "42aefeaf-c543-4d52-aefa-3edb83454303": {
+        "source": {
+          "id": "242c4b10-912a-4a9e-a2a7-fc378609d962"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 4
+      },
+      "a9f46953-ad37-4367-89f5-7595166f1622": {
+        "source": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        },
+        "target": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        },
+        "z": 5
+      }
+    }
+  },
+  "Resources": {
+    "HackDayVPC": {
+      "Type": "AWS::EC2::VPC",
+      "Properties": {
+        "CidrBlock": "10.0.0.0/16",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - VPC"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "3a500250-8403-4d8b-8759-68ebb8d62d26"
+        }
+      }
+    },
+    "HackDaySubnetEuWest1b": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "eu-west-1b",
+        "CidrBlock": "10.0.2.0/24",
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1bSN"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "70236a59-9efb-4582-a9e6-0cdf764a74b0"
+        }
+      }
+    },
+    "HackDaySubnetEuWest1c": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "eu-west-1c",
+        "CidrBlock": "10.0.3.0/24",
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1cSN"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "fab48816-7a30-4217-ad22-e873b38c5516"
+        }
+      }
+    },
+    "HackDaySubnetEuWest1a": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "AvailabilityZone": "eu-west-1a",
+        "CidrBlock": "10.0.1.0/24",
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1aSN"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "c02c43ce-ea89-4aa1-b4f9-73e944fbc3ed"
+        }
+      }
+    },
+    "HackDayRouteTable": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - RT"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "8938b0dd-3c45-41a8-a3d3-a02c237b185f"
+        }
+      }
+    },
+    "HackDayGateway": {
+      "Type": "AWS::EC2::InternetGateway",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - IG"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "8486fe4d-4a45-4df3-ac05-d3d3b2402e07"
+        }
+      }
+    },
+    "CloudCoreSecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "Security Group for DDS Hack Day",
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        },
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - SG"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "6b8902b4-58ea-4c7a-9bd8-8529682affd6"
+        }
+      }
+    },
+    "CloudCoreInstanceEuWest1a": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-ed82e39e",
+        "InstanceType": "t2.micro",
+        "NetworkInterfaces": [
+          {
+            "AssociatePublicIpAddress": true,
+            "DeleteOnTermination": true,
+            "DeviceIndex": "0",
+            "SubnetId": {
+              "Ref": "HackDaySubnetEuWest1a"
+            },
+            "GroupSet": [
+              {
+                "Ref": "CloudCoreSecurityGroup"
+              }
+            ]
+          }
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1a"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "ca7ee170-cfd4-4a2b-8e98-4c106155a5b7"
+        }
+      },
+      "DependsOn": [
+        "VPCGWAttachement"
+      ]
+    },
+    "CloudCoreInstanceEuWest1c": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-ed82e39e",
+        "InstanceType": "t2.micro",
+        "NetworkInterfaces": [
+          {
+            "AssociatePublicIpAddress": true,
+            "DeleteOnTermination": true,
+            "DeviceIndex": "0",
+            "SubnetId": {
+              "Ref": "HackDaySubnetEuWest1c"
+            },
+            "GroupSet": [
+              {
+                "Ref": "CloudCoreSecurityGroup"
+              }
+            ]
+          }
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1c"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "dbbffdb9-ac72-4e6d-8eb9-985ccfc5c27b"
+        }
+      },
+      "DependsOn": [
+        "VPCGWAttachement"
+      ]
+    },
+    "PublicRoute": {
+      "Type": "AWS::EC2::Route",
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "RouteTableId": {
+          "Ref": "HackDayRouteTable"
+        },
+        "GatewayId": {
+          "Ref": "HackDayGateway"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "75f42f12-735b-4b66-9da9-395dd75db409"
+        }
+      },
+      "DependsOn": [
+        "VPCGWAttachement"
+      ]
+    },
+    "CloudCoreInstanceEuWest1b": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-ed82e39e",
+        "InstanceType": "t2.micro",
+        "NetworkInterfaces": [
+          {
+            "AssociatePublicIpAddress": true,
+            "DeleteOnTermination": true,
+            "DeviceIndex": "0",
+            "SubnetId": {
+              "Ref": "HackDaySubnetEuWest1b"
+            },
+            "GroupSet": [
+              {
+                "Ref": "CloudCoreSecurityGroup"
+              }
+            ]
+          }
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "HackDay - CloudCore - EUWest1b"
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "242c4b10-912a-4a9e-a2a7-fc378609d962"
+        }
+      },
+      "DependsOn": [
+        "VPCGWAttachement"
+      ]
+    },
+    "VPCGWAttachement": {
+      "Type": "AWS::EC2::VPCGatewayAttachment",
+      "Properties": {
+        "InternetGatewayId": {
+          "Ref": "HackDayGateway"
+        },
+        "VpcId": {
+          "Ref": "HackDayVPC"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "6de90ba8-6433-4217-adad-b0aeaa2ce988"
+        }
+      }
+    },
+    "CloudCoreSubnetRTAssocEuWest1a": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "HackDayRouteTable"
+        },
+        "SubnetId": {
+          "Ref": "HackDaySubnetEuWest1a"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "303168e8-70c7-4326-a1b9-456eaa9d1efc"
+        }
+      }
+    },
+    "CloudCoreSubnetRTAssocEuWest1b": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "HackDayRouteTable"
+        },
+        "SubnetId": {
+          "Ref": "HackDaySubnetEuWest1b"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "be86684a-1842-42b9-a40b-0f9b888cc4df"
+        }
+      }
+    },
+    "CloudCoreSubnetRTAssocEuWest1c": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "HackDayRouteTable"
+        },
+        "SubnetId": {
+          "Ref": "HackDaySubnetEuWest1c"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "e57d4a6a-4954-44fa-9120-d7f8d84ddbad"
+        }
+      }
+    }
+  }
+}
